@@ -1,0 +1,17 @@
+{
+  "name": "codegenerator",
+  "author": "bij7n",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "codegen": "openapi-codegen gen dubcraft"
+  },
+  "dependencies": {
+    "@openapi-codegen/cli": "^2.0.0",
+    "@openapi-codegen/typescript": "^8.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0",
+    "typescript": "^5.3.2"
+  }
+}
